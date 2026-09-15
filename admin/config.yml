@@ -1,0 +1,118 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Photos the client uploads land next to the ones already on the site
+media_folder: "photos"
+public_folder: "photos"
+
+site_url: https://www.archerlodgelabradors.com
+display_url: https://www.archerlodgelabradors.com
+logo_url: https://www.archerlodgelabradors.com/photos/timber.jpg
+
+# Uncomment the next line to make every client change wait for your approval
+# publish_mode: editorial_workflow
+
+collections:
+  - name: puppies
+    label: "Available puppies"
+    editor: { preview: false }
+    files:
+      - name: list
+        label: "Puppies on the ground"
+        file: "content/puppies.json"
+        format: json
+        fields:
+          - { label: "Section heading", name: heading, widget: string }
+          - { label: "Intro line", name: intro, widget: text }
+          - label: "Puppies"
+            name: puppies
+            widget: list
+            label_singular: "puppy"
+            summary: "{{fields.name}} — {{fields.status}}"
+            fields:
+              - { label: "Name", name: name, widget: string }
+              - { label: "Photo", name: photo, widget: image, required: false }
+              - { label: "Status", name: status, widget: select, options: ["Available", "Reserved", "Sold"], default: "Available" }
+              - { label: "Sex", name: sex, widget: select, options: ["", "Male", "Female"], required: false }
+              - { label: "Color", name: color, widget: select, options: ["Yellow", "Black", "Chocolate", "Fox Red"], default: "Yellow" }
+              - { label: "Litter", name: litter, widget: string, required: false, hint: "e.g. Mila & Bear" }
+              - { label: "Photo description (for screen readers)", name: alt, widget: string, required: false }
+
+  - name: litters
+    label: "Upcoming litters"
+    editor: { preview: false }
+    files:
+      - name: list
+        label: "Litters open for reservation"
+        file: "content/litters.json"
+        format: json
+        fields:
+          - { label: "Section heading", name: heading, widget: string }
+          - { label: "Intro line", name: intro, widget: text }
+          - label: "Litters"
+            name: litters
+            widget: list
+            label_singular: "litter"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Pairing", name: name, widget: string, hint: "e.g. Mila & Bear" }
+              - { label: "Status", name: status, widget: select, options: ["Open for reservations", "Waitlist only", "Full"], default: "Open for reservations" }
+              - { label: "Description", name: blurb, widget: text }
+              - { label: "Price", name: price, widget: string, required: false }
+              - { label: "Expected", name: expected, widget: string, required: false, hint: "e.g. March 2027" }
+
+  - name: site
+    label: "Banner & contact"
+    editor: { preview: false }
+    files:
+      - name: general
+        label: "Top banner and contact details"
+        file: "content/site.json"
+        format: json
+        fields:
+          - { label: "Banner — bold part", name: banner_bold, widget: string }
+          - { label: "Banner — rest of the line", name: banner_rest, widget: string, required: false }
+          - { label: "Phone", name: phone, widget: string }
+          - { label: "Email", name: email, widget: string }
+
+  - name: pricing
+    label: "Pricing"
+    editor: { preview: false }
+    files:
+      - name: table
+        label: "Prices and deposit"
+        file: "content/pricing.json"
+        format: json
+        fields:
+          - label: "Price rows"
+            name: rows
+            widget: list
+            label_singular: "row"
+            summary: "{{fields.label}} — {{fields.price}}"
+            fields:
+              - { label: "Litter or service", name: label, widget: string }
+              - { label: "Price", name: price, widget: string }
+              - { label: "Note", name: note, widget: string, required: false }
+          - { label: "Deposit line", name: deposit, widget: text }
+
+  - name: dogs
+    label: "Our dogs"
+    editor: { preview: false }
+    files:
+      - name: list
+        label: "Adult dogs"
+        file: "content/dogs.json"
+        format: json
+        fields:
+          - label: "Dogs"
+            name: dogs
+            widget: list
+            label_singular: "dog"
+            summary: "{{fields.name}}"
+            fields:
+              - { label: "Name", name: name, widget: string }
+              - { label: "Role", name: role, widget: select, options: ["Dam", "Sire", "Stud", "Retired"], required: false }
+              - { label: "Photo", name: photo, widget: image, required: false }
+              - { label: "Description", name: blurb, widget: text, required: false }
+              - { label: "Photo description (for screen readers)", name: alt, widget: string, required: false }

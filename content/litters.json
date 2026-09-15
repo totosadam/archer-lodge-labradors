@@ -1,0 +1,20 @@
+{
+  "heading": "Coming next",
+  "intro": "Reservations open now. A deposit holds your place in line.",
+  "litters": [
+    {
+      "name": "Mila & Bear",
+      "status": "Open for reservations",
+      "blurb": "Open for reservations now. Call or text and we'll tell you what we expect from the pairing and where you'd sit in line.",
+      "price": "$3,500–5,500",
+      "expected": ""
+    },
+    {
+      "name": "Lucy & Knox",
+      "status": "Open for reservations",
+      "blurb": "Open for reservations now. Call or text and we'll tell you what we expect from the pairing and where you'd sit in line.",
+      "price": "$3,500–5,500",
+      "expected": ""
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "dogs": [
+    {
+      "name": "Lola",
+      "role": "Dam",
+      "blurb": "",
+      "photo": "photos/lola.jpg",
+      "alt": "Lola, an English Labrador"
+    }
+  ]
+}
