@@ -108,7 +108,8 @@
         });
       }
       var h = document.location.hash || '';
-      if (h.indexOf('invite_token=') > -1 || h.indexOf('recovery_token=') > -1) {
+      if (h.indexOf('invite_token=') > -1 || h.indexOf('recovery_token=') > -1 ||
+          h.indexOf('confirmation_token=') > -1 || h.indexOf('email_change_token=') > -1) {
         document.location.href = '/admin/' + h;
         return;
       }
