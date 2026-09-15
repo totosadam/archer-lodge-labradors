@@ -92,6 +92,31 @@
     }
   </style>
   <script src="cms-content.js"></script>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    /* Catches Identity invite / password-recovery tokens that land on the homepage
+       and hands them to the editor at /admin/ instead of silently dropping them. */
+    (function () {
+      function go() {
+        if (!window.netlifyIdentity) return;
+        window.netlifyIdentity.on('init', function (user) {
+          if (!user) {
+            window.netlifyIdentity.on('login', function () {
+              document.location.href = '/admin/';
+            });
+          }
+        });
+      }
+      var h = document.location.hash || '';
+      if (h.indexOf('invite_token=') > -1 || h.indexOf('recovery_token=') > -1) {
+        document.location.href = '/admin/' + h;
+        return;
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', go);
+      } else { go(); }
+    })();
+  </script>
 </helmet>
 
 <div style="width:100%;overflow-x:hidden">
