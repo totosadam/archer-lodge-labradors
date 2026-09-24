@@ -1,0 +1,32 @@
+# Short link for the client to share: archerlodgelabradors.com/review
+/review            https://g.page/r/Cap9abCvWZLDEAE/review   302
+
+# Old GoDaddy-style URLs -> new pages
+/home                      /                        301
+/available-puppies-1       /available-puppies       301
+/puppies                   /available-puppies       301
+/our-puppies               /available-puppies       301
+/puppies-for-sale          /available-puppies       301
+/litters                   /available-puppies       301
+/upcoming-litters          /available-puppies       301
+/our-dogs-1                /our-dogs                301
+/dogs                      /our-dogs                301
+/our-girls                 /our-dogs                301
+/our-labs                  /our-dogs                301
+/stud-services             /stud-service            301
+/studs                     /stud-service            301
+/our-boys                  /stud-service            301
+/about-us                  /about                   301
+/our-story                 /about                   301
+/our-family                /about                   301
+/pricing                   /pricing-and-transport   301
+/prices                    /pricing-and-transport   301
+/transport                 /pricing-and-transport   301
+/pricing-%26-transport     /pricing-and-transport   301
+/pricing-&-transport       /pricing-and-transport   301
+/faqs                      /faq                     301
+/frequently-asked-questions /faq                    301
+/contact-us                /contact                 301
+/blog-1                    /blog                    301
+/guides                    /blog                    301
+/m/*                       /                        301

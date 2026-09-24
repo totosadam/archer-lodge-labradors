@@ -1,0 +1,33 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+/photos/*
+  Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+
+/content/*
+  Cache-Control: public, max-age=0, must-revalidate
+
+/support.js
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/cms-content.js
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600
+
+/llms.txt
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: public, max-age=3600
+
+/admin/*
+  Cache-Control: no-cache
+  X-Robots-Tag: noindex, nofollow
