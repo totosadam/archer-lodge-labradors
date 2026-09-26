@@ -91,60 +91,6 @@
       "status": "Available",
       "photo": "photos/victory.jpg",
       "alt": "Victory, a black English Labrador puppy"
-    },
-    {
-      "name": "Timber",
-      "sex": "",
-      "color": "Yellow",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/timber.jpg",
-      "alt": "Timber, a yellow English Labrador puppy"
-    },
-    {
-      "name": "August",
-      "sex": "",
-      "color": "Yellow",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/august.jpg",
-      "alt": "August, a pale yellow English Labrador puppy"
-    },
-    {
-      "name": "Harvest",
-      "sex": "",
-      "color": "Yellow",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/harvest.jpg",
-      "alt": "Harvest, a yellow English Labrador puppy looking out over a shoulder"
-    },
-    {
-      "name": "Finch",
-      "sex": "",
-      "color": "Yellow",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/finch.jpg",
-      "alt": "Finch, a yellow English Labrador puppy wearing a brown collar"
-    },
-    {
-      "name": "Meadow",
-      "sex": "",
-      "color": "Yellow",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/meadow.jpg",
-      "alt": "Meadow, a yellow English Labrador puppy"
-    },
-    {
-      "name": "Forest",
-      "sex": "",
-      "color": "Yellow",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/forest.jpg",
-      "alt": "Forest, a pale yellow English Labrador puppy"
     }
   ]
 }
