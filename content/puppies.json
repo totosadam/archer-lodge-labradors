@@ -1,7 +1,97 @@
 {
   "heading": "Available now",
-  "intro": "Six yellow puppies looking for their families. Call or text to ask about any of them, or to come meet them in person.",
+  "intro": "Yellow, black and chocolate puppies looking for their families. Call or text to ask about any of them, or to come meet them in person.",
   "puppies": [
+    {
+      "name": "Whiskey",
+      "sex": "Male",
+      "color": "Yellow",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/whiskey.jpg",
+      "alt": "Whiskey, a yellow English Labrador puppy wearing a blue bow tie"
+    },
+    {
+      "name": "Winter",
+      "sex": "Male",
+      "color": "Yellow",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/winter.jpg",
+      "alt": "Winter, a yellow English Labrador puppy wearing a blue bow tie in the garden"
+    },
+    {
+      "name": "Sully",
+      "sex": "Female",
+      "color": "Chocolate",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/sully.jpg",
+      "alt": "Sully, a chocolate English Labrador puppy"
+    },
+    {
+      "name": "Rambo",
+      "sex": "Male",
+      "color": "Black",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/rambo.jpg",
+      "alt": "Rambo, a black English Labrador puppy"
+    },
+    {
+      "name": "Freedom",
+      "sex": "Female",
+      "color": "Black",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/freedom.jpg",
+      "alt": "Freedom, a black English Labrador puppy sitting up"
+    },
+    {
+      "name": "Outlaw",
+      "sex": "Male",
+      "color": "Black",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/outlaw.jpg",
+      "alt": "Outlaw, a black English Labrador puppy with a paw on a toy lamb"
+    },
+    {
+      "name": "Valor",
+      "sex": "Female",
+      "color": "Black",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/valor.jpg",
+      "alt": "Valor, a black English Labrador puppy"
+    },
+    {
+      "name": "Glory",
+      "sex": "Female",
+      "color": "Black",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/glory.jpg",
+      "alt": "Glory, a black English Labrador puppy beside a toy lamb"
+    },
+    {
+      "name": "Scout",
+      "sex": "Female",
+      "color": "Black",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/scout.jpg",
+      "alt": "Scout, a black English Labrador puppy"
+    },
+    {
+      "name": "Victory",
+      "sex": "Female",
+      "color": "Black",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/victory.jpg",
+      "alt": "Victory, a black English Labrador puppy"
+    },
     {
       "name": "Timber",
       "sex": "",
