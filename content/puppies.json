@@ -3,15 +3,6 @@
   "intro": "Yellow, black and chocolate puppies looking for their families. Call or text to ask about any of them, or to come meet them in person.",
   "puppies": [
     {
-      "name": "Dolly",
-      "sex": "Female",
-      "color": "Black",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/dolly.jpg",
-      "alt": "Dolly, a black English Labrador puppy"
-    },
-    {
       "name": "Molly",
       "sex": "Female",
       "color": "Black",
