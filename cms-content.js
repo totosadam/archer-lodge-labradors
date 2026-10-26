@@ -35,7 +35,7 @@
     return '' +
       '<div style="background:#fff;border:1px solid #ece4d8;border-radius:20px;overflow:hidden;box-shadow:0 16px 34px -26px rgba(68,53,40,.4)">' +
         '<div style="position:relative;aspect-ratio:1/1;background:#efe4d3">' +
-          '<img src="' + esc(p.photo) + '" alt="' + esc(p.alt || (p.name + ', an English Labrador puppy')) + '" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block">' +
+          '<img src="' + esc(bust(p.photo)) + '" alt="' + esc(p.alt || (p.name + ', an English Labrador puppy')) + '" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:center;display:block">' +
           '<span style="position:absolute;top:14px;left:14px;background:' + badge + ';color:#fff;font-size:11px;font-weight:800;letter-spacing:.1em;padding:6px 12px;border-radius:999px">' + esc(status).toUpperCase() + '</span>' +
         '</div>' +
         '<div style="padding:22px 22px 26px">' +
@@ -63,6 +63,11 @@
   }
 
   /* swap phone + email everywhere they appear, text and links alike */
+  // These photos were briefly missing and browsers kept the "not found" answer, so ask for a fresh copy.
+  function bust(src) {
+    return /^photos\/(timber|meadow|august|finch|forest|harvest|lola|whiskey|winter|sully|rambo|roxie|outlaw|scout)\.jpg$/.test(src || '') ? src + '?v=2' : src;
+  }
+
   function applyContacts(phone, email) {
     if (phone && phone !== DEFAULT_PHONE) {
       var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
