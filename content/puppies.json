@@ -76,16 +76,16 @@
     },
     {
       "name": "Hazel",
-      "sex": "",
+      "sex": "Female",
       "color": "Chocolate",
       "litter": "",
       "status": "Available",
       "photo": "photos/hazel.jpg",
-      "alt": "Hazel, a chocolate English Labrador puppy"
+      "alt": "Hazel, a chocolate English Labrador puppy with a white spot on her chest"
     },
     {
       "name": "Grace",
-      "sex": "",
+      "sex": "Female",
       "color": "Chocolate",
       "litter": "",
       "status": "Available",
@@ -94,7 +94,7 @@
     },
     {
       "name": "Coco",
-      "sex": "",
+      "sex": "Female",
       "color": "Chocolate",
       "litter": "",
       "status": "Available",
