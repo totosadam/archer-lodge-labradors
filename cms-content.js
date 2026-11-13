@@ -65,7 +65,7 @@
   /* swap phone + email everywhere they appear, text and links alike */
   // These photos were briefly missing and browsers kept the "not found" answer, so ask for a fresh copy.
   function bust(src) {
-    return /^photos\/(timber|meadow|august|finch|forest|harvest|lola|whiskey|winter|sully|rambo|roxie|outlaw|scout)\.jpg$/.test(src || '') ? src + '?v=2' : src;
+    return src;
   }
 
   function applyContacts(phone, email) {

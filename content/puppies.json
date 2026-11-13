@@ -1,168 +1,96 @@
 {
   "heading": "Available now",
-  "intro": "Yellow, black and chocolate puppies looking for their families. Call or text to ask about any of them, or to come meet them in person.",
+  "intro": "Black and chocolate puppies looking for their families. Call or text to ask about any of them, or to come meet them in person.",
   "puppies": [
     {
-      "name": "Oakley",
-      "sex": "Female",
-      "color": "Yellow",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/oakley.jpg",
-      "alt": "Oakley, a cream yellow English Labrador puppy"
-    },
-    {
-      "name": "Reed",
-      "sex": "Male",
+      "name": "Daisy",
+      "sex": "",
       "color": "Black",
       "litter": "",
       "status": "Available",
-      "photo": "photos/reed.jpg",
-      "alt": "Reed, a black English Labrador puppy"
+      "photo": "photos/daisy.jpg",
+      "alt": "Daisy, a black English Labrador puppy"
     },
     {
-      "name": "Owen",
-      "sex": "Male",
+      "name": "Minnie",
+      "sex": "",
       "color": "Black",
       "litter": "",
       "status": "Available",
-      "photo": "photos/owen.jpg",
-      "alt": "Owen, a black English Labrador puppy wearing a blue collar"
+      "photo": "photos/minnie.jpg",
+      "alt": "Minnie, a black English Labrador puppy"
     },
     {
-      "name": "Duck",
-      "sex": "Male",
-      "color": "Black",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/duck.jpg",
-      "alt": "Duck, a black English Labrador puppy"
-    },
-    {
-      "name": "Whiskey",
-      "sex": "Male",
-      "color": "Yellow",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/whiskey.jpg",
-      "alt": "Whiskey, a yellow English Labrador puppy wearing a blue bow tie"
-    },
-    {
-      "name": "Winter",
-      "sex": "Male",
-      "color": "Yellow",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/winter.jpg",
-      "alt": "Winter, a yellow English Labrador puppy wearing a blue bow tie in the garden"
-    },
-    {
-      "name": "Sully",
-      "sex": "Female",
+      "name": "Rugby",
+      "sex": "",
       "color": "Chocolate",
       "litter": "",
       "status": "Available",
-      "photo": "photos/sully.jpg",
-      "alt": "Sully, a chocolate English Labrador puppy"
+      "photo": "photos/rugby.jpg",
+      "alt": "Rugby, a chocolate English Labrador puppy"
     },
     {
-      "name": "Rambo",
-      "sex": "Male",
-      "color": "Black",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/rambo.jpg",
-      "alt": "Rambo, a black English Labrador puppy"
-    },
-    {
-      "name": "Roxie",
-      "sex": "Female",
-      "color": "Black",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/roxie.jpg",
-      "alt": "Roxie, a black English Labrador puppy"
-    },
-    {
-      "name": "Outlaw",
-      "sex": "Male",
-      "color": "Black",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/outlaw.jpg",
-      "alt": "Outlaw, a black English Labrador puppy with a paw on a toy lamb"
-    },
-    {
-      "name": "Dolly",
-      "sex": "Female",
-      "color": "Black",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/dolly.jpg",
-      "alt": "Dolly, a black English Labrador puppy"
-    },
-    {
-      "name": "Molly",
-      "sex": "Female",
-      "color": "Black",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/molly.jpg",
-      "alt": "Molly, a black English Labrador puppy"
-    },
-    {
-      "name": "Luna",
-      "sex": "Female",
-      "color": "Black",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/luna.jpg",
-      "alt": "Luna, a black English Labrador puppy"
-    },
-    {
-      "name": "Scout",
-      "sex": "Female",
-      "color": "Black",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/scout.jpg",
-      "alt": "Scout, a black English Labrador puppy"
-    },
-    {
-      "name": "August",
+      "name": "Bear",
       "sex": "",
-      "color": "Yellow",
+      "color": "Chocolate",
       "litter": "",
       "status": "Available",
-      "photo": "photos/august.jpg",
-      "alt": "August, a pale yellow English Labrador puppy"
+      "photo": "photos/bear.jpg",
+      "alt": "Bear, a chocolate English Labrador puppy"
     },
     {
-      "name": "Harvest",
+      "name": "Hershey",
       "sex": "",
-      "color": "Yellow",
+      "color": "Chocolate",
       "litter": "",
       "status": "Available",
-      "photo": "photos/harvest.jpg",
-      "alt": "Harvest, a yellow English Labrador puppy looking out over a shoulder"
+      "photo": "photos/hershey.jpg",
+      "alt": "Hershey, a chocolate English Labrador puppy"
     },
     {
-      "name": "Finch",
+      "name": "Grizzly",
       "sex": "",
-      "color": "Yellow",
+      "color": "Chocolate",
       "litter": "",
       "status": "Available",
-      "photo": "photos/finch.jpg",
-      "alt": "Finch, a yellow English Labrador puppy wearing a brown collar"
+      "photo": "photos/grizzly.jpg",
+      "alt": "Grizzly, a chocolate English Labrador puppy"
     },
     {
-      "name": "Forest",
+      "name": "Bruno",
       "sex": "",
-      "color": "Yellow",
+      "color": "Chocolate",
       "litter": "",
       "status": "Available",
-      "photo": "photos/forest.jpg",
-      "alt": "Forest, a pale yellow English Labrador puppy"
+      "photo": "photos/bruno.jpg",
+      "alt": "Bruno, a chocolate English Labrador puppy"
+    },
+    {
+      "name": "Hazel",
+      "sex": "",
+      "color": "Chocolate",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/hazel.jpg",
+      "alt": "Hazel, a chocolate English Labrador puppy"
+    },
+    {
+      "name": "Grace",
+      "sex": "",
+      "color": "Chocolate",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/grace.jpg",
+      "alt": "Grace, a chocolate English Labrador puppy"
+    },
+    {
+      "name": "Coco",
+      "sex": "",
+      "color": "Chocolate",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/coco.jpg",
+      "alt": "Coco, a chocolate English Labrador puppy"
     }
   ]
 }
