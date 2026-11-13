@@ -21,6 +21,15 @@
       "alt": "Minnie, a black English Labrador puppy"
     },
     {
+      "name": "Clarabelle",
+      "sex": "",
+      "color": "Black",
+      "litter": "",
+      "status": "Available",
+      "photo": "photos/clarabelle.jpg",
+      "alt": "Clarabelle, a black English Labrador puppy"
+    },
+    {
       "name": "Rugby",
       "sex": "",
       "color": "Chocolate",
