@@ -30,51 +30,6 @@
       "alt": "Clarabelle, a black English Labrador puppy"
     },
     {
-      "name": "Rugby",
-      "sex": "",
-      "color": "Chocolate",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/rugby.jpg",
-      "alt": "Rugby, a chocolate English Labrador puppy"
-    },
-    {
-      "name": "Bear",
-      "sex": "",
-      "color": "Chocolate",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/bear.jpg",
-      "alt": "Bear, a chocolate English Labrador puppy"
-    },
-    {
-      "name": "Hershey",
-      "sex": "",
-      "color": "Chocolate",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/hershey.jpg",
-      "alt": "Hershey, a chocolate English Labrador puppy"
-    },
-    {
-      "name": "Grizzly",
-      "sex": "",
-      "color": "Chocolate",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/grizzly.jpg",
-      "alt": "Grizzly, a chocolate English Labrador puppy"
-    },
-    {
-      "name": "Bruno",
-      "sex": "",
-      "color": "Chocolate",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/bruno.jpg",
-      "alt": "Bruno, a chocolate English Labrador puppy"
-    },
-    {
       "name": "Hazel",
       "sex": "Female",
       "color": "Chocolate",
@@ -82,24 +37,6 @@
       "status": "Available",
       "photo": "photos/hazel.jpg",
       "alt": "Hazel, a chocolate English Labrador puppy with a white spot on her chest"
-    },
-    {
-      "name": "Grace",
-      "sex": "Female",
-      "color": "Chocolate",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/grace.jpg",
-      "alt": "Grace, a chocolate English Labrador puppy"
-    },
-    {
-      "name": "Coco",
-      "sex": "Female",
-      "color": "Chocolate",
-      "litter": "",
-      "status": "Available",
-      "photo": "photos/coco.jpg",
-      "alt": "Coco, a chocolate English Labrador puppy"
     }
   ]
 }
