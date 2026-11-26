@@ -127,6 +127,8 @@
           var lgrid = document.querySelector('[data-cms="litter-grid"]');
           if (lgrid) {
             lgrid.innerHTML = lits.litters.map(litterCard).join('');
+            var ls = lgrid.closest('section');
+            if (ls) ls.style.display = '';
           }
           var lh = document.querySelector('[data-cms="litter-heading"]');
           if (lh && lits.heading) lh.textContent = lits.heading;
